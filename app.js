@@ -76,7 +76,7 @@ app.post('/webhooks/whatsapp', async (req, res) => {
   }
 });
 
-// Inicia el servidor
+// Inicia el servido
 app.listen(port, () => {
   console.log(`Servidor escuchando en el puerto ${port}`);
 });
